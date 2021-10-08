@@ -20,7 +20,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.5.5'
     // https://mvnrepository.com/artifact/postgresql/postgresql
-    implementation group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
+    implementation 'org.postgresql:postgresql:42.2.24.jre7'
     // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
     implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
 
