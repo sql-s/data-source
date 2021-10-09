@@ -16,7 +16,7 @@ public class Controller {
 
     @GetMapping("greetings")
     public String getStr() {
-        var list = repository.getSomething("select * from person");
+        var list = repository.getSomething("select * from customers");
         StringBuilder stringBuilder = new StringBuilder();
         list.forEach(stringBuilder::append);
         return stringBuilder.toString();
